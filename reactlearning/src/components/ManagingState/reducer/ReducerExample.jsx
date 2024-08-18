@@ -20,6 +20,7 @@ export default function ReducerExample() {
  };
   return (
     <div>
+      <h3>Using Reducer</h3>
       <div className="add">
         <input
           type="text"

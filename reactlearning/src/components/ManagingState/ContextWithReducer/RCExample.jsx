@@ -5,6 +5,7 @@ function RCExample() {
   return (
     <div>
       <AppState>
+        <h3>Using Context with Reducer</h3>
         <Count />
       </AppState>
     </div>

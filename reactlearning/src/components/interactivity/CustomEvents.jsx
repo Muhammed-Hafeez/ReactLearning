@@ -11,6 +11,7 @@ const Child = (props) => {
 const CustomEvents = () => {
   return (
     <div>
+      <h3>Creating Custom Events</h3>
       <Child
         alert={() => {
           alert("this is alert");

@@ -11,13 +11,14 @@ const reducer = (state, action) => {
       ];
     }
     case "update": {
-      state.map((elem) => {
+      let arr = state;
+       arr.map((elem) => {
         if (elem.id == action.id) {
           elem.text = action.text;
           return state;
         }
       });
-      return state;
+      return arr;
     }
     case "delete": {
       let arr = state.filter((elem) => {

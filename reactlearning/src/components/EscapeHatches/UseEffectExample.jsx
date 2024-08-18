@@ -24,12 +24,15 @@ function UseEffectExample() {
 
   return (
     <div>
+      <h3>UseEffect Example</h3>
       <VideoPlayer src={src} isPlaying={play} />
       <button
         onClick={() => {
           play ? setPlay(false) : setPlay(true);
         }}
-      >play</button>
+      >
+        play
+      </button>
     </div>
   );
 }
